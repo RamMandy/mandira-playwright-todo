@@ -19,7 +19,7 @@ test('user can add a todo item', async ({ page }) => {
   
   await addTodo(page, 'Learn Playwright');
   
-  await expect(page.getByText('Learn Playwright')).toBeVisible();
+  await expect(page.getByText('Learn Selenium')).toBeVisible();
 
 });
 
